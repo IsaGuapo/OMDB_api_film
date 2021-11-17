@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.6",
+    "pug": "^3.0.2"
+  },
+  "name": "omdb_api_film",
+  "description": "Crea una aplicación de películas para hacer una API REST con Express. Para ello usa la API de pelis que te proporcionamos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaGuapo/OMDB_api_film.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaGuapo/OMDB_api_film/issues"
+  },
+  "homepage": "https://github.com/IsaGuapo/OMDB_api_film#readme"
+}
