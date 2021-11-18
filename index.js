@@ -1,6 +1,7 @@
 
 const express = require('express')
 const bodyParser = require('body-parser');
+const peliculaRouter = require('./routes/pelicula')
 
 
 const app = express()
@@ -16,11 +17,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 //Llamada a la ruta pelicula.js
-//app.use("/",productRouter)// rutas Web
+app.use("/",peliculaRouter)// rutas Web
 
 
 //llamada a la ruta peliculaApi.js
-//app.use("/api",productApiRouter) //rutas API
+//app.use("/",peliculaRouter) //rutas API
 
 
 
